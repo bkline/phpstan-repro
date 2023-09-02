@@ -1,0 +1,7 @@
+repro.simple_page:
+  path: '/simple-page'
+  defaults:
+    _title: 'Simple Repro Page'
+    _controller: Drupal\repro\Controller\ReproPage::display
+  requirements:
+    _access: 'TRUE'
